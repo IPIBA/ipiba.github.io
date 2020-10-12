@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: ipiba.github.io
+Token: 7b3f5d77e77c6ae4db2cc1a336acbeccb4e405e7b554e4c1c75b82efe165bdb8
