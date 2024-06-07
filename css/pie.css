@@ -1,0 +1,342 @@
+/* RESETEO DE LA FUENTE Y ESTILOS DE BOOTSTRAP 5 */
+/**{
+	font-family: auto;
+}*/
+/* FIN DEL RESETEO DE LA FUENTE Y ESTILOS DE BOOTSTRAP 5 */
+
+
+@media(max-width: 320px){
+	.pie{
+		/*position: relative;*/
+		/*width: 100vw;*/
+		width: 100%;
+		height: 160px;
+		/*text-align: center;*/
+		margin: 0px 0px 0px 0px;
+		background: #CBCBCB;
+		border-top: 3px solid #999999;
+	}
+
+	.datos{
+		/*position: relative;*/
+		text-align: center;
+		margin: 10px 0px 10px 0px;
+		/*background: #CBCBCB;*/
+		/*background-image: linear-gradient(180deg, #CBCBCB, white);*/
+		/*background-image: linear-gradient(white, #CBCBCB, white);*/
+		background-image: linear-gradient(#CBCBCB, white, #CBCBCB);
+		font-size: 9px;
+	}
+
+	.contactanos{
+		margin: 6px 0px 6px 0px;
+	}
+
+	.derechos{
+		color: black;
+		margin: 8px 0px 8px 0px;
+	}
+
+	.datos img{
+		width: 9px;
+		height: 9px;
+	}
+
+	.datos a img{
+		width: 16px;
+		height: 16px;
+		/*margin: 10px 0px 10px 10px;*/
+		margin: 10px 0px 25px 10px; !important
+		padding: 0px 5px 0px 5px;
+
+		transition: all 0.5s ease;
+	}
+
+	.datos a img:hover{
+		transform: scale(1.2);
+		transition: all 0.5s ease;
+	}
+
+}
+
+@media(min-width: 321px) and (max-width: 480px){
+	.pie{
+		/*position: relative;*/
+		/*width: 100vw;*/
+		width: 100%;
+		height: 170px;
+		/*text-align: center;*/
+		margin: 0px 0px 0px 0px;
+		background: #CBCBCB;
+		border-top: 3px solid #999999;
+	}
+
+	.datos{
+		/*position: relative;*/
+		text-align: center;
+		margin: 10px 0px 10px 0px;
+		/*background: #CBCBCB;*/
+		/*background-image: linear-gradient(180deg, #CBCBCB, white);*/
+		/*background-image: linear-gradient(white, #CBCBCB, white);*/
+		background-image: linear-gradient(#CBCBCB, white, #CBCBCB);
+		font-size: 10px;
+	}
+
+	.contactanos{
+		margin: 6px 0px 6px 0px;
+	}
+
+	.derechos{
+		color: black;
+		margin: 8px 0px 8px 0px;
+	}
+
+	.datos img{
+		width: 10px;
+		height: 10px;
+	}
+
+	.datos a img{
+		width: 18px;
+		height: 18px;
+		/*margin: 10px 0px 10px 10px;*/
+		margin: 10px 0px 25px 10px; !important
+		padding: 0px 5px 0px 5px;
+
+		transition: all 0.5s ease;
+	}
+
+	.datos a img:hover{
+		transform: scale(1.2);
+		transition: all 0.5s ease;
+	}
+
+}
+
+@media(min-width: 481px) and (max-width: 768px){
+	.pie{
+		/*position: relative;*/
+		/*width: 100vw;*/
+		width: 100%;
+		height: 170px;
+		/*text-align: center;*/
+		margin: 0px 0px 0px 0px;
+		background: #CBCBCB;
+		border-top: 3px solid #999999;
+	}
+
+	.datos{
+		/*position: relative;*/
+		text-align: center;
+		margin: 10px 0px 10px 0px;
+		/*background: #CBCBCB;*/
+		/*background-image: linear-gradient(180deg, #CBCBCB, white);*/
+		/*background-image: linear-gradient(white, #CBCBCB, white);*/
+		background-image: linear-gradient(#CBCBCB, white, #CBCBCB);
+		font-size: 10px;
+	}
+
+	.contactanos{
+		margin: 6px 0px 6px 0px;
+	}
+
+	.derechos{
+		color: black;
+		margin: 8px 0px 8px 0px;
+	}
+
+	.datos img{
+		width: 10px;
+		height: 10px;
+	}
+
+	.datos a img{
+		width: 18px;
+		height: 18px;
+		/*margin: 10px 0px 10px 10px;*/
+		margin: 10px 0px 25px 10px; !important
+		padding: 0px 5px 0px 5px;
+
+		transition: all 0.5s ease;
+	}
+
+	.datos a img:hover{
+		transform: scale(1.2);
+		transition: all 0.5s ease;
+	}
+
+}
+
+@media(min-width: 769px) and (max-width: 1024px){
+	.pie{
+		/*position: relative;*/
+		/*width: 100vw;*/
+		width: 100%;
+		height: 180px;
+		/*text-align: center;*/
+		margin: 0px 0px 0px 0px;
+		background: #CBCBCB;
+		border-top: 3px solid #999999;
+	}
+
+	.datos{
+		/*position: relative;*/
+		text-align: center;
+		margin: 10px 0px 10px 0px;
+		/*background: #CBCBCB;*/
+		/*background-image: linear-gradient(180deg, #CBCBCB, white);*/
+		/*background-image: linear-gradient(white, #CBCBCB, white);*/
+		background-image: linear-gradient(#CBCBCB, white, #CBCBCB);
+		font-size: 11px;
+	}
+
+	.contactanos{
+		margin: 6px 0px 6px 0px;
+	}
+
+	.derechos{
+		color: black;
+		margin: 8px 0px 8px 0px;
+	}
+
+	.datos img{
+		width: 11px;
+		height: 11px;
+	}
+
+	.datos a img{
+		width: 20px;
+		height: 20px;
+		/*margin: 10px 0px 10px 10px;*/
+		margin: 10px 0px 25px 10px; !important
+		padding: 0px 5px 0px 5px;
+
+		transition: all 0.5s ease;
+	}
+
+	.datos a img:hover{
+		transform: scale(1.2);
+		transition: all 0.5s ease;
+	}
+
+}
+
+@media(min-width: 1025px) and (max-width: 1200px){
+	.pie{
+		/*position: relative;*/
+		/*width: 100vw;*/
+		width: 100%;
+		height: 190px;
+		/*text-align: center;*/
+		margin: 0px 0px 0px 0px;
+		background: #CBCBCB;
+		border-top: 3px solid #999999;
+	}
+
+	.datos{
+		/*position: relative;*/
+		text-align: center;
+		margin: 10px 0px 10px 0px;
+		/*background: #CBCBCB;*/
+		/*background-image: linear-gradient(180deg, #CBCBCB, white);*/
+		/*background-image: linear-gradient(white, #CBCBCB, white);*/
+		background-image: linear-gradient(#CBCBCB, white, #CBCBCB);
+		font-size: 12px;
+	}
+
+	.contactanos{
+		margin: 6px 0px 6px 0px;
+	}
+
+	.derechos{
+		color: black;
+		margin: 8px 0px 8px 0px;
+	}
+
+	.datos img{
+		width: 12px;
+		height: 12px;
+	}
+
+	.datos a img{
+		width: 22px;
+		height: 22px;
+		/*margin: 10px 0px 10px 10px;*/
+		margin: 10px 0px 25px 10px; !important
+		padding: 0px 5px 0px 5px;
+
+		transition: all 0.5s ease;
+	}
+
+	.datos a img:hover{
+		transform: scale(1.2);
+		transition: all 0.5s ease;
+	}
+
+}
+
+/* PARA MI PC XQ TIENE 1366x768 DE RESOLUCION */
+@media(min-width: 1201px){
+	.pie{
+		/*position: relative;*/
+		/*width: 100vw;*/
+		width: 100%;
+		height: 200px;
+		/*text-align: center;*/
+		margin: 0px 0px 0px 0px;
+		background: #CBCBCB;
+		border-top: 3px solid #999999;
+		font: sans-serif;
+	}
+
+	.datos{
+		/*position: relative;*/
+		text-align: center;
+		margin: 10px 0px 10px 0px;
+		/*background: #CBCBCB;*/
+		/*background-image: linear-gradient(180deg, #CBCBCB, white);*/
+		/*background-image: linear-gradient(white, #CBCBCB, white);*/
+		background-image: linear-gradient(#CBCBCB, white, #CBCBCB);
+		font-size: 16px;
+	}
+
+	.contactanos{
+		margin: 6px 0px 6px 0px;
+	}
+
+	.derechos{
+		color: black;
+		margin: 8px 0px 8px 0px;
+	}
+
+	.datos img{
+		width: 16px;
+		height: 16px;
+	}
+
+	.datos a img{
+	
+		width: 30px;
+		height: 30px;
+		/*margin: 10px 0px 10px 10px;*/
+		margin: 10px 0px 25px 10px; !important
+		padding: 0px 5px 0px 5px;
+
+		transition: all 0.5s ease;
+	}
+
+	.datos a img:hover{
+		transform: scale(1.2);
+		transition: all 0.5s ease;
+	}
+	
+}
+	
+
+	
+
+	
+
+	
+
+	

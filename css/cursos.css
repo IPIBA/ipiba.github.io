@@ -1,0 +1,237 @@
+
+
+.contenido{
+	background: #F5F5F5;
+	/*background: url(../cursos/cursos.webp);*/
+	background: url(../background/4481130_18759.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.contenido .cuentas{
+	width: 55%;
+}
+
+.vision.cuentas{
+	/*background: #FFD04C;*/
+	background: white;
+	color: #373277;
+	/*color: black;*/
+	/*color: purple;*/
+	/*box-shadow: 10px 10px 5px lightblue;*/
+	border-radius: 20px;
+	border: 2px solid grey;
+	/*border-radius: 0px 100px;*/
+	opacity: 70%;
+	transform: scale(1.0);
+	transition: all 0.5s ease;
+}
+
+.vision.cuentas:hover{
+	/*background: #FFD04C;*/
+	background: white;
+	color: #373277;
+	/*color: black;*/
+	/*color: purple;*/
+	/*box-shadow: 10px 10px 5px lightblue;*/
+	box-shadow: 10px 10px 5px grey;
+	border-radius: 20px;
+	/*border-radius: 100px 0px;*/
+	opacity: 70%;
+	transform: scale(1.08);
+	transition: all 0.5s ease;
+	strong{
+		color: purple;
+	}
+}
+
+
+
+
+/*ESTO ES PARA LAS IMAGENES DE LAS CAPACITACIONES*/
+
+.album{
+	background: #F5F5F5;
+	/*background: url(../background/13878392_5393608.jpg);*/
+	background: url(../background/10601544_41950.svg);
+	/*background-repeat: no-repeat;*/
+	background-repeat: repeat-y;
+	background-position: center;
+	/*background-size: cover;*/
+}
+
+.album a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.album h1{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	/*margen inferior original es 8px*/
+	margin: 0px 0px 20px 0px;
+}
+
+
+/*.album img{
+	transform: scale(1.0);
+	transition: all 0.5s ease;
+}*/
+
+/*.album img:hover{
+	border-radius: 5px 5px;
+	transform: scale(1.08);
+	transition: all 0.5s ease;
+	/*opacity: 70%;/
+}*/
+
+.card{
+	transform: scale(1.0);
+	transition: all 0.5s ease;
+}
+
+.card:hover{
+	border-radius: 5px 5px;
+	transform: scale(1.08);
+	transition: all 0.5s ease;
+	/*opacity: 70%;*/
+}
+
+.album button{
+	background: #25D165;
+	color: white;
+}
+
+.album button:hover{
+	background: #25D165;
+	color: black;
+	transition: all 0.5s ease;
+}
+
+#arriba{
+	/*background: #FFD04C;*/
+	background: lightblue;
+}
+
+
+
+
+.carreras{
+	background: #F5F5F5;
+	/*background: url(../background/hexagonal.jpg);*/
+	background: url(../background/black-and-green.webp);
+	/*background: url(../background/bacground_resultado.webp);*/
+	/*background-repeat: no-repeat;*/
+	/*background-repeat: repeat-y;*/
+	background-position: center;
+	background-size: cover;
+	border: 5px solid white;
+}
+
+#especialidad{
+	/*background: #F5F5F5;*/
+	/*background: url(../cursos/cursos.webp);*/
+	text-align: center;
+	/*line-height: 120px;*/
+	line-height: 200px;
+}
+
+#especialidad button{
+	background: #0B5ED7;
+	color: white;
+	margin: 10px;
+	border: 2px solid white;
+	transform: scale(1.0);
+	transition: all 0.5s ease;
+}
+
+
+#especialidad button:hover{
+	/*background: #373B3D;*/
+	background: white;
+	/*color: yellow;*/
+	color: #0B5ED7;
+	border: 2px solid #0B5ED7;
+	/*transform: scale(1.08);*/
+	transform: scale(1.0);
+	transition: all 0.5s ease;
+}
+
+#especialidad h5{
+	margin: auto;
+}
+
+
+
+
+/* OCULTANDO LOS ALBUNES DE TODAS LAS ESPECIALIDADES */
+
+#album_ingenieria{
+	display: none;
+}
+
+#album_derecho{
+	background: #F5F5F5;
+	/*background: url(../background/13878392_5393608.jpg);*/
+	background: url(../background/10601544_41950.svg);
+	/*background-repeat: no-repeat;*/
+	background-repeat: repeat-y;
+	background-position: center;
+	background-size: cover;
+
+
+	display: none;
+}
+
+#album_educacion{
+	background: #F5F5F5;
+	/*background: url(../background/13878392_5393608.jpg);*/
+	background: url(../background/10601544_41950.svg);
+	/*background-repeat: no-repeat;*/
+	background-repeat: repeat-y;
+	background-position: center;
+	background-size: cover;
+
+
+	display: none;
+}
+
+#album_salud{
+	background: #F5F5F5;
+	/*background: url(../background/13878392_5393608.jpg);*/
+	background: url(../background/10601544_41950.svg);
+	/*background-repeat: no-repeat;*/
+	background-repeat: repeat-y;
+	background-position: center;
+	background-size: cover;
+
+
+	display: none;
+}
+
+#album_ofimatica{
+	background: #F5F5F5;
+	/*background: url(../background/13878392_5393608.jpg);*/
+	background: url(../background/10601544_41950.svg);
+	/*background-repeat: no-repeat;*/
+	background-repeat: repeat-y;
+	background-position: center;
+	background-size: cover;
+
+
+	display: none;
+}
+
+#album_idiomas{
+	background: #F5F5F5;
+	/*background: url(../background/13878392_5393608.jpg);*/
+	background: url(../background/10601544_41950.svg);
+	/*background-repeat: no-repeat;*/
+	background-repeat: repeat-y;
+	background-position: center;
+	background-size: cover;
+
+
+	display: none;
+}

@@ -1,0 +1,172 @@
+#aula_user{
+	/*background: #F8F9FA;*/
+	/*background: black;*/
+	background: #F5F5F5;
+	background: url(../background/19965632_6186556.svg);
+	/*background-repeat: no-repeat;*/
+	background-repeat: repeat-y;
+	background-position: center;
+	background-size: cover;
+}
+
+.rounded{
+	/*background: #FAECC6;*/
+	background: rgb(250, 236, 198, 0.8);
+}
+
+#aula_user button{
+	display: flex;
+	/*align-items: center;*/
+	/*text-align: center;*/
+	border: none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	
+}
+
+#diplomado{
+	background: black;
+}
+
+/*#diplomado:hover{
+	/*cursor: default;*/
+	/*cursor: pointer;
+}*/
+
+
+
+#video{
+	/*background: red;*/
+	background: #CBCBCB;
+	border-radius: 5px;
+
+	display: grid;
+
+}
+
+#video figure{
+	background: #2A2A2E;
+
+	/*display: inline-grid;*/
+	/*align-items: center;*/
+	/*text-align: center;*/
+
+}
+
+
+/*VER VIDEO*/
+figure iframe{
+	/*width: 45em;*/
+	/*height: 35em;*/
+
+	/*width: 800px;*/
+	/*height: 300px;*/
+
+	width: 70vw;
+	height: 70vh;
+	
+}
+
+
+
+
+@media(max-width: 320px){
+	#bienvenida{
+		margin-top: 80px;
+		background: rgb(251, 251, 251, 0.5);
+		border-radius: 5px;
+	}
+
+	#aula_user h2{
+		font-size: 24px;
+	}
+
+	#aula_user p{
+		font-size: 14px;
+	}
+}
+
+@media(min-width: 321px) and (max-width: 480px){
+	#bienvenida{
+		margin-top: 80px;
+		background: rgb(251, 251, 251, 0.5);
+		border-radius: 5px;
+	}
+
+	#aula_user h2{
+		font-size: 24px;
+	}
+
+	#aula_user p{
+		font-size: 14px;
+	}
+}
+
+@media(min-width: 481px) and (max-width: 768px){
+	#bienvenida{
+		margin-top: 80px;
+		background: rgb(251, 251, 251, 0.5);
+		border-radius: 5px;
+	}
+
+	#aula_user h2{
+		font-size: 24px;
+	}
+
+	#aula_user p{
+		font-size: 14px;
+	}
+}
+
+@media(min-width: 769px) and (max-width: 1024px){
+	#bienvenida{
+		margin-top: 80px;
+		background: rgb(251, 251, 251, 0.5);
+		border-radius: 5px;
+	}
+
+	#aula_user h2{
+		font-size: 24px;
+	}
+
+	#aula_user p{
+		font-size: 16px;
+	}
+}
+
+@media(min-width: 1025px) and (max-width: 1200px){
+	#bienvenida{
+		margin-top: 80px;
+		background: rgb(251, 251, 251, 0.5);
+		border-radius: 5px;
+	}
+
+	#aula_user h2{
+		font-size: 30px;
+	}
+
+	#aula_user p{
+		font-size: 18px;
+	}
+}
+
+/* PARA MI PC XQ TIENE 1366x768 DE RESOLUCION */
+@media(min-width: 1201px){
+	#bienvenida{
+		margin-top: 120px;
+		background: rgb(251, 251, 251, 0.5);
+		/*background: red;*/
+		border-radius: 5px;
+	}
+
+	#aula_user h2{
+		font-size: 30px;
+	}
+
+	#aula_user p{
+		font-size: 22px;
+	}
+}
+
+
+
