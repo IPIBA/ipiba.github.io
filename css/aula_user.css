@@ -33,6 +33,49 @@
 	/*cursor: pointer;
 }*/
 
+.descarga{
+	background: none;
+	display: flex;
+	/*align-items: flex-end;*/
+	/*margin-top: -8px;*/
+	/*margin-bottom: 16px;*/
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+#descarga{
+	/* OCULTANDO LOS ÍCONOS PARA LAS DESCARGAS DEL PDF Y PPT */
+	display: none;
+	/* COLOR DANGER AL BOTÓN #DC3545 - rgb(220, 53, 69) */
+	/*border: 2px solid #DC3545;*/
+	.imagen{
+		/*background: white;*/
+		background: rgb(255, 255, 255);
+		border: 1px solid rgb(220, 53, 69);
+		
+	}
+	
+	.imagen:hover{
+		/* COLOR DANGER AL BOTÓN #DC3545 - rgb(220, 53, 69) */
+		background: rgb(220, 53, 69);
+	}
+
+	.imagen-pdf{
+		margin-right: 10px;
+		margin-left: 0px;
+	}
+	.imagen-ppt{
+		margin-right: 0px;
+		margin-left: 10px;
+	}
+	img{
+		/*width: 19px;*/
+		/*height: 19px;*/
+	}
+}
+
+
+
+
 
 
 #video{
