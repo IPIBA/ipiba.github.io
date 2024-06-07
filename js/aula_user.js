@@ -11,6 +11,13 @@ function aula_user(){
 		//document.getElementById("vervideo").src = "https://drive.google.com/file/d/1gieePR3bFRRqzvvlSNY1uO5z3ApWIIfc/preview";
 		document.getElementById("vervideo").src = "https://drive.google.com/file/d/0B2EsL-JaXOMXZ3BkQVdxck81b1U/preview";
 		//document.getElementById("vervideo").src="https://www.youtube.com/watch?v=n16JoIz5FQs";
+
+		// MOSTRANDO LOS ICONOS PARA LA DESCARGA DE LOS PDF Y PPT (CON DISPLAY FLEX COMO EN SU ORIGEN)
+		document.getElementById('descarga').style.display = 'flex';
+
+		// INSERTANDO LOS ENLACES A LOS ARCHIVOS RESPECTIVOS DEL PDF Y PPT
+		document.getElementById("pdf").href = "https://drive.google.com/uc?export=download&id=1o2KEo-_xi-XeH3zDbaiLERtpnliaAy8s";
+		document.getElementById("ppt").href = "https://drive.google.com/uc?export=download&id=1o2KEo-_xi-XeH3zDbaiLERtpnliaAy8s";
 	});
 
 	ssomam1.addEventListener("click", function(){
