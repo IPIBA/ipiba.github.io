@@ -25,6 +25,9 @@ function aula_user(){
 		let titulo = document.getElementById("ssomam1").innerHTML;
 		nombre.innerHTML = titulo;
 		document.getElementById("vervideo").src = "https://drive.google.com/file/d/1B4T7RAzsXZNC3ta8uOcYuHcs49pBExWx/preview";
+
+		// OCULTANDO LOS ICONOS PARA LA DESCARGA DE LOS PDF Y PPT (CON DISPLAY FLEX COMO EN SU ORIGEN)
+		document.getElementById('descarga').style.display = 'none';
 	});
 
 	ssomam2.addEventListener("click", function(){
@@ -32,6 +35,9 @@ function aula_user(){
 		let titulo = document.getElementById("ssomam2").innerHTML;
 		nombre.innerHTML = titulo;
 		document.getElementById("vervideo").src = "https://drive.google.com/file/d/0B2EsL-JaXOMXSTNPd25vLWZXWTA/preview";
+
+		// OCULTANDO LOS ICONOS PARA LA DESCARGA DE LOS PDF Y PPT (CON DISPLAY FLEX COMO EN SU ORIGEN)
+		document.getElementById('descarga').style.display = 'none';
 	});
 
 	ssomam3.addEventListener("click", function(){
@@ -39,6 +45,9 @@ function aula_user(){
 		let titulo = document.getElementById("ssomam3").innerHTML;
 		nombre.innerHTML = titulo;
 		document.getElementById("vervideo").src = "https://drive.google.com/file/d/1Yciard-zwBtESjFhTazMuoeWC4HnLydc/preview";
+
+		// OCULTANDO LOS ICONOS PARA LA DESCARGA DE LOS PDF Y PPT (CON DISPLAY FLEX COMO EN SU ORIGEN)
+		document.getElementById('descarga').style.display = 'none';
 	});
 
 	ssomam4.addEventListener("click", function(){
@@ -46,6 +55,9 @@ function aula_user(){
 		let titulo = document.getElementById("ssomam4").innerHTML;
 		nombre.innerHTML = titulo;
 		document.getElementById("vervideo").src = "https://drive.google.com/file/d/1yYOwe8LGpNx0qO3R_F4brMClQowYH-36/preview";
+
+		// OCULTANDO LOS ICONOS PARA LA DESCARGA DE LOS PDF Y PPT (CON DISPLAY FLEX COMO EN SU ORIGEN)
+		document.getElementById('descarga').style.display = 'none';
 	});
 
 	ssomam5.addEventListener("click", function(){
@@ -53,6 +65,9 @@ function aula_user(){
 		let titulo = document.getElementById("ssomam5").innerHTML;
 		nombre.innerHTML = titulo;
 		document.getElementById("vervideo").src = "https://drive.google.com/file/d/1xO-xi7ULyJRSUToH6SLvwTUcgDUEsKHH/preview";
+
+		// OCULTANDO LOS ICONOS PARA LA DESCARGA DE LOS PDF Y PPT (CON DISPLAY FLEX COMO EN SU ORIGEN)
+		document.getElementById('descarga').style.display = 'none';
 	});
 
 	ssomam6.addEventListener("click", function(){
@@ -60,6 +75,9 @@ function aula_user(){
 		let titulo = document.getElementById("ssomam6").innerHTML;
 		nombre.innerHTML = titulo;
 		document.getElementById("vervideo").src = "https://drive.google.com/file/d/0B2EsL-JaXOMXb1BKSVdjbVNqalE/preview";
+
+		// OCULTANDO LOS ICONOS PARA LA DESCARGA DE LOS PDF Y PPT (CON DISPLAY FLEX COMO EN SU ORIGEN)
+		document.getElementById('descarga').style.display = 'none';
 	});
 
 	ssomam7.addEventListener("click", function(){
@@ -67,6 +85,9 @@ function aula_user(){
 		let titulo = document.getElementById("ssomam7").innerHTML;
 		nombre.innerHTML = titulo;
 		document.getElementById("vervideo").src = "https://drive.google.com/file/d/1KA2qSwCSgh9dTJv9wPgxktlZ5gZhN9XE/preview";
+
+		// OCULTANDO LOS ICONOS PARA LA DESCARGA DE LOS PDF Y PPT (CON DISPLAY FLEX COMO EN SU ORIGEN)
+		document.getElementById('descarga').style.display = 'none';
 	});
 
 	ssomam8.addEventListener("click", function(){
@@ -74,6 +95,9 @@ function aula_user(){
 		let titulo = document.getElementById("ssomam8").innerHTML;
 		nombre.innerHTML = titulo;
 		document.getElementById("vervideo").src = "https://drive.google.com/file/d/0B2EsL-JaXOMXSmxndndodjYyUlU/preview";
+
+		// OCULTANDO LOS ICONOS PARA LA DESCARGA DE LOS PDF Y PPT (CON DISPLAY FLEX COMO EN SU ORIGEN)
+		document.getElementById('descarga').style.display = 'none';
 	});
 
 	ssomam9.addEventListener("click", function(){
@@ -81,6 +105,9 @@ function aula_user(){
 		let titulo = document.getElementById("ssomam9").innerHTML;
 		nombre.innerHTML = titulo;
 		document.getElementById("vervideo").src = "https://drive.google.com/file/d/0B2EsL-JaXOMXcVp1MFdiUHp0NDA/preview";
+
+		// OCULTANDO LOS ICONOS PARA LA DESCARGA DE LOS PDF Y PPT (CON DISPLAY FLEX COMO EN SU ORIGEN)
+		document.getElementById('descarga').style.display = 'none';
 	});
 }
 window.onload=aula_user();
