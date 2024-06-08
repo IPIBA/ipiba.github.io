@@ -43,6 +43,7 @@
 	margin-bottom: 10px;
 }
 #descarga{
+	/*background: red;*/
 	/* OCULTANDO LOS ÍCONOS PARA LAS DESCARGAS DEL PDF Y PPT */
 	display: none;
 	/* COLOR DANGER AL BOTÓN #DC3545 - rgb(220, 53, 69) */
@@ -50,7 +51,7 @@
 	.imagen{
 		/*background: white;*/
 		background: rgb(255, 255, 255);
-		border: 1px solid rgb(220, 53, 69);
+		border: 2px solid rgb(220, 53, 69);
 		
 	}
 	
@@ -65,11 +66,19 @@
 	}
 	.imagen-ppt{
 		margin-right: 0px;
+		margin-left: 0px;
+	}
+	.imagen-examen{
+		margin-right: 0px;
 		margin-left: 10px;
 	}
 	img{
-		/*width: 19px;*/
-		/*height: 19px;*/
+		/*width: 30px;*/
+		/*height: 30px;*/
+	}
+	a{
+		text-decoration: none;
+		color: inherit;
 	}
 }
 
@@ -80,7 +89,14 @@
 
 #video{
 	/*background: red;*/
-	background: #CBCBCB;
+	/*background: #CBCBCB;*/
+	/* COLOR BLANCO CON TRANSPARENCIA */
+	/*background: rgb(255, 255, 255, 0.9);*/
+	/* COLOR DEL BOTON PRIMARY CON TRANSPARENCIA */
+	/*background: rgb(11, 94, 215, 0.9);*/
+	/* COLOR DEL BOTON INFO CON TRANSPARENCIA */
+	background: rgb(49, 210, 242, 0.5);
+
 	border-radius: 5px;
 
 	display: grid;
@@ -127,6 +143,10 @@ figure iframe{
 	#aula_user p{
 		font-size: 14px;
 	}
+	#descarga img{
+		width: 24px;
+		height: 24px;
+	}
 }
 
 @media(min-width: 321px) and (max-width: 480px){
@@ -142,6 +162,10 @@ figure iframe{
 
 	#aula_user p{
 		font-size: 14px;
+	}
+	#descarga img{
+		width: 24px;
+		height: 24px;
 	}
 }
 
@@ -159,6 +183,10 @@ figure iframe{
 	#aula_user p{
 		font-size: 14px;
 	}
+	#descarga img{
+		width: 24px;
+		height: 24px;
+	}
 }
 
 @media(min-width: 769px) and (max-width: 1024px){
@@ -175,6 +203,10 @@ figure iframe{
 	#aula_user p{
 		font-size: 16px;
 	}
+	#descarga img{
+		width: 24px;
+		height: 24px;
+	}
 }
 
 @media(min-width: 1025px) and (max-width: 1200px){
@@ -190,6 +222,10 @@ figure iframe{
 
 	#aula_user p{
 		font-size: 18px;
+	}
+	#descarga img{
+		width: 30px;
+		height: 30px;
 	}
 }
 
@@ -208,6 +244,10 @@ figure iframe{
 
 	#aula_user p{
 		font-size: 22px;
+	}
+	#descarga img{
+		width: 30px;
+		height: 30px;
 	}
 }
 
