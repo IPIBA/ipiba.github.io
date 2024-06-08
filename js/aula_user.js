@@ -18,6 +18,9 @@ function aula_user(){
 		// INSERTANDO LOS ENLACES A LOS ARCHIVOS RESPECTIVOS DEL PDF Y PPT
 		document.getElementById("pdf").href = "https://drive.google.com/uc?export=download&id=1o2KEo-_xi-XeH3zDbaiLERtpnliaAy8s";
 		document.getElementById("ppt").href = "https://drive.google.com/uc?export=download&id=1o2KEo-_xi-XeH3zDbaiLERtpnliaAy8s";
+
+		// INSERTANDO EL ENLACE PARA EL EXAMEN
+		document.getElementById("examen").href = "";
 	});
 
 	ssomam1.addEventListener("click", function(){
