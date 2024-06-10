@@ -101,6 +101,14 @@
 
 	display: grid;
 
+	/*object-fit: fill;*/
+	/*object-fit: cover;*/
+	/*object-fit: contain;*/
+	/*object-fit: scale-down;*/
+
+	/* ESTO SE AGREGÓ PARA MEJORAR LA RELACION DEL ASPECTO DEL VIDEO */
+	width: 100%;
+
 }
 
 #video figure{
@@ -109,6 +117,9 @@
 	/*display: inline-grid;*/
 	/*align-items: center;*/
 	/*text-align: center;*/
+
+	/* ESTO SE AGREGÓ PARA MEJORAR LA RELACION DEL ASPECTO DEL VIDEO */
+	width: 100%;
 
 }
 
@@ -121,9 +132,16 @@ figure iframe{
 	/*width: 800px;*/
 	/*height: 300px;*/
 
-	width: 70vw;
-	height: 70vh;
-	
+	/* ESTO SE CAMBIO */
+	/*width: 70vw;*/
+	/*height: 70vh;*/
+
+	/* ESTO SE AGREGÓ PARA MEJORAR LA RELACION DEL ASPECTO DEL VIDEO */
+	aspect-ratio: 2/1;
+
+	width: 100%;
+	height: 100%;
+
 }
 
 
