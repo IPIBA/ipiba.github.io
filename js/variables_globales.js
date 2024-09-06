@@ -28,6 +28,60 @@ var sst_display = "none";
 
 
 
+// CURSO DE IDIOMA: Inglés Intermedio (ii)
+
+// Módulo 1: Inglés Intermedio I
+
+var ii_m1_video = "https://drive.google.com/file/d/1akUpqvesRdWjSA6XNOLRz8gROYJJplGB/preview";
+var ii_m1_pdf = "";
+var ii_m1_ppt = "";
+var ii_m1_examen = "";
+//Display para los iconones de PDF, PPT y EXAMEN (flex = se muestra || none = se ocultan)
+var ii_m1_display = "none";
+
+// Módulo 2: Inglés Intermedio II
+
+var ii_m2_video = "https://drive.google.com/file/d/1uKe_brAxgK-OZK4fxxAc1Yke6z7zxSpy/preview";
+var ii_m2_pdf = "";
+var ii_m2_ppt = "";
+var ii_m2_examen = "";
+//Display para los iconones de PDF, PPT y EXAMEN (flex = se muestra || none = se ocultan)
+var ii_m2_display = "none";
+
+// Módulo 3: Inglés Intermedio III
+
+var ii_m3_video = "https://drive.google.com/file/d/1Jk6YsvdmCKxkHv4te0xWbF_GJfa6Zhw0/preview";
+var ii_m3_pdf = "";
+var ii_m3_ppt = "";
+var ii_m3_examen = "";
+//Display para los iconones de PDF, PPT y EXAMEN (flex = se muestra || none = se ocultan)
+var ii_m3_display = "none";
+
+// Módulo 4: Inglés Intermedio IV
+
+var ii_m4_video = "https://drive.google.com/file/d/1lqRZXxm4it6Mvfoon9o1WDsD8iOdsAxe/preview";
+var ii_m4_pdf = "";
+var ii_m4_ppt = "";
+var ii_m4_examen = "";
+//Display para los iconones de PDF, PPT y EXAMEN (flex = se muestra || none = se ocultan)
+var ii_m4_display = "none";
+
+// Módulo 5: Inglés Intermedio V
+
+var ii_m5_video = "https://drive.google.com/file/d/1re7rAjlrPlAPcJU35BfBQf5F_q69ST8t/preview";
+var ii_m5_pdf = "";
+var ii_m5_ppt = "";
+var ii_m5_examen = "";
+//Display para los iconones de PDF, PPT y EXAMEN (flex = se muestra || none = se ocultan)
+var ii_m5_display = "none";
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+
+
+
 // DIPLOMADO: Seguridad, Salud Ocupacional y Medio Ambiente (ssoma)
 
 // Módulo 1: Normatividad en Seguridad y Salud en el Trabajo
