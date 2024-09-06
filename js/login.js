@@ -20,6 +20,12 @@ function login(){
 			event.preventDefault()
 			window.location.href = "../html/48381898.html"
 		}
+		else if (usuario == "74773995" && contrasena == "74773995"){
+			// verificar.innerHTML = "¡Datos Correctos!";
+			verificar.innerHTML = "¡Datos Correctos!";
+			event.preventDefault()
+			window.location.href = "../html/74773995.html"
+		}
 		else {
 			//document.getElementById('verificar').style.display = 'block';
 			document.getElementById("user").value="";
