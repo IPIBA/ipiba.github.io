@@ -86,9 +86,11 @@
 
 					<!-- Contador de visitas -->
 					<br>
-					<center>
+					<!--<center>
 					<img style="border: 0px solid; display: inline; width: 100px; height: 15px" alt="contador de visitas" src="https://websmultimedia.com/contador-de-visitas.php?id=17552">
-					</center>
+					</center>-->
+
+					<span id="numero"></span>
 					<br>
 					<!-- Fin Contador de visitas -->
 					
@@ -104,6 +106,24 @@
 	<script src="../js/login.js"></script>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<!-- Contador de visitas -->
+	<script type="application/javascript">
+		var visitas = localStorage.getItem("visitas");
+		var contador;
+
+		if(!visitas){
+			contador = 0;
+			localStorage.setItem("visitas", contador);
+		} else {
+			contador = localStorage.getItem("visitas");
+			contador++;
+			localStorage.setItem("visitas", contador);
+		}
+
+		document.getElementById("numero").innerHTML = contador;
+	</script>
+	<!-- Fin Contador de visitas -->
 
 </body>
 </html>
