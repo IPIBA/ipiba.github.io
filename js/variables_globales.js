@@ -28,6 +28,28 @@ var sst_display = "none";
 
 
 
+// CURSO: Uroanálisis: Examen general de orina (uego)
+
+var uego_video = "https://drive.google.com/file/d/12IN8-MSnmrIGHfoUj2e6wowdkZ9a5dj1/preview";
+//var sst_pdf = "https://drive.google.com/uc?export=download&id=1o2KEo-_xi-XeH3zDbaiLERtpnliaAy8s";
+//var sst_ppt = "https://drive.google.com/uc?export=download&id=1o2KEo-_xi-XeH3zDbaiLERtpnliaAy8s";
+//var sst_examen = "https://docs.google.com/forms/d/e/1FAIpQLSeseG6omFPArSiUI0k0ZDW-nO1McyRx08EFGSil99XJc_Ko0w/viewform?usp=sharing";
+
+var uego_pdf = "https://drive.google.com/drive/folders/1wNeaIlJb8KzuTH2rRWGbG4FRvDSNBcHg?usp=sharing";
+var uego_ppt = "";
+var uego_examen = "";
+
+
+//Display para los iconones de PDF, PPT y EXAMEN (flex = se muestra || none = se ocultan)
+var uego_display = "flex";
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+
+
+
 // CURSO DE IDIOMA: Inglés Intermedio (ii)
 
 // Módulo 1: Inglés Intermedio I

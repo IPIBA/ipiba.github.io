@@ -35,6 +35,43 @@ function aula_user(){
 		document.getElementById("examen").href = sst_examen;
 	});
 
+
+	// CURSO: Uroanálisis: Examen general de orina (uego)
+	uego.addEventListener("click", function(){
+		// AGREGANDO EL VIDEO RESPECTIVO
+		//var titulo = document.getElementById("uego").value;
+		let titulo = document.getElementById("uego").innerHTML;
+		nombre.innerHTML = titulo;
+		//var vervideo = document.getElementById("vervideo");
+		//vervideo.setAttribute("src", "https://www.youtube.com/watch?v=n16JoIz5FQs");
+		//vervideo.setAttribute("src", "https://drive.google.com/file/d/1gieePR3bFRRqzvvlSNY1uO5z3ApWIIfc/preview");
+		//document.getElementById("vervideo").src = "https://drive.google.com/file/d/1gieePR3bFRRqzvvlSNY1uO5z3ApWIIfc/preview";
+
+		// INSERTANDO EL ENLACE PARA EL VIDEO
+		//document.getElementById("vervideo").src = "https://drive.google.com/file/d/0B2EsL-JaXOMXZ3BkQVdxck81b1U/preview";
+		// USANDO VARIABLES GLOBALES PARA EL ENLACE PARA EL VIDEO
+		document.getElementById("vervideo").src = uego_video;
+		//document.getElementById("vervideo").src="https://www.youtube.com/watch?v=n16JoIz5FQs";
+
+		// MOSTRANDO LOS ICONOS PARA LA DESCARGA DE LOS PDF Y PPT (CON DISPLAY FLEX COMO EN SU ORIGEN)
+		//document.getElementById('descarga').style.display = 'flex';
+		// USANDO VARIABLES GLOBALES PARA OCULTAR O MOSTRAR LOS ICONOS
+		document.getElementById('descarga').style.display = uego_display;
+
+		// INSERTANDO LOS ENLACES A LOS ARCHIVOS RESPECTIVOS DEL PDF Y PPT
+		//document.getElementById("pdf").href = "https://drive.google.com/uc?export=download&id=1o2KEo-_xi-XeH3zDbaiLERtpnliaAy8s";
+		//document.getElementById("ppt").href = "https://drive.google.com/uc?export=download&id=1o2KEo-_xi-XeH3zDbaiLERtpnliaAy8s";
+		// USANDO VARIABLES GLOBALES PARA LOS ENLACES A LOS ARCHIVOS RESPECTIVOS DEL PDF Y PPT
+		document.getElementById("pdf").href = uego_pdf;
+		document.getElementById("ppt").href = uego_ppt;
+
+		// INSERTANDO EL ENLACE PARA EL EXAMEN
+		//document.getElementById("examen").href = "https://docs.google.com/forms/d/e/1FAIpQLSeseG6omFPArSiUI0k0ZDW-nO1McyRx08EFGSil99XJc_Ko0w/viewform?usp=sharing";
+		// USANDO VARIABLES GLOBALES PARA EL ENLACE PARA EL EXAMEN
+		document.getElementById("examen").href = uego_examen;
+	});
+
+
 	// CURSO DE IDIOMA: Inglés Intermedio (ii)
 	// Módulo 1: Inglés Intermedio I
 	iim1.addEventListener("click", function(){
