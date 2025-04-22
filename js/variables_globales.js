@@ -36,7 +36,7 @@ var uego_video = "https://drive.google.com/file/d/12IN8-MSnmrIGHfoUj2e6wowdkZ9a5
 //var sst_examen = "https://docs.google.com/forms/d/e/1FAIpQLSeseG6omFPArSiUI0k0ZDW-nO1McyRx08EFGSil99XJc_Ko0w/viewform?usp=sharing";
 
 var uego_pdf = "https://drive.google.com/drive/folders/1wNeaIlJb8KzuTH2rRWGbG4FRvDSNBcHg?usp=sharing";
-var uego_ppt = "";
+var uego_ppt = "https://drive.google.com/file/d/1p6_Cr9NwfqpsT8ukKKeZz1XLEmDfMFfG/view?usp=sharing";
 var uego_examen = "";
 
 
